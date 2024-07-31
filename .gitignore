@@ -3,3 +3,8 @@ Pipeline.hw/
 Pipeline.ip_user_files/
 Pipeline.runs/
 Pipeline.sim/
+
+Pipeline.srcs/sources_1/ip/
+
+!Pipeline.srcs/sources_1/ip/dataram8/dataram8.xci
+!Pipeline.srcs/sources_1/ip/instrom/instrom.xci
