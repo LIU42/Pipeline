@@ -17,13 +17,13 @@ module dataram(
     wire [3:0] d_wen;
     
     decoder2 ren_decoder(
-        .code_in  (ren),
-        .code_out (d_ren)
+        .cin  (ren),
+        .cout (d_ren)
     );
     
     decoder2 wen_decoder(
-        .code_in  (wen),
-        .code_out (d_wen)
+        .cin  (wen),
+        .cout (d_wen)
     );
     
     wire [9:0] addr_hi;

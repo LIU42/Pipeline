@@ -35,7 +35,7 @@ module cpu(
     wire [1:0]  id_hi_control;
     wire [1:0]  id_lo_control;
     
-    instdecoder cpu_instdecoder(
+    controller cpu_controller(
         .inst        (id_inst),
         .jumps       (id_jumps),
         .alu_control (id_alu_control),

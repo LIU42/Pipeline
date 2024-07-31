@@ -12,8 +12,8 @@ module alu(
     wire [15:0] onehot_control;
     
     decoder4 alu_control_decoder(
-        .code_in  (control),
-        .code_out (onehot_control)
+        .cin  (control),
+        .cout (onehot_control)
     );
     
     wire [31:0] adder_operand1;
